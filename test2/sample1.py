@@ -20,7 +20,6 @@ class Calculator:
 
 
 calculator = Calculator()
-
 calculator.add(5)
 calculator.subtract(2)
 calculator.multiply_by_result(3)
