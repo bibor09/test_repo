@@ -18,10 +18,12 @@ class Calculator:
     def print_result(self):
         print("Result:", self.result)
 
+class Calculator2:
+    def __init__(self):
+        calculator = Calculator()
+        calculator.add(5)
+        calculator.subtract(2)
+        calculator.multiply_by_result(3)
+        calculator.divide_by_result(10)
+        calculator.print_result()
 
-calculator = Calculator()
-calculator.add(5)
-calculator.subtract(2)
-calculator.multiply_by_result(3)
-calculator.divide_by_result(10)
-calculator.print_result()
