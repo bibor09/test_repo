@@ -28,6 +28,17 @@ class Bird(Animal):
 
     def fly(self):
         return "Flying in the sky."
+    
+
+class Parrot(Bird):
+    def speak(self):
+        return "Chirp!"
+
+    def fly(self):
+        return "Flying in the sky."
+    
+    def color(self):
+        return "Red."
 
 
 dog = Dog("Buddy")
