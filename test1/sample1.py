@@ -1,22 +1,19 @@
 import random
 
-def generate_random_numbers():
-    numbers = []
-    for _ in range(10):
-        numbers.append(random.randint(1, 100))
-    return numbers
+class Calculate():
+    def __init__(self):
+        self.random = Random()
+        self.avg = Average()
 
-def calculate_average(numbers):
-    total = sum(numbers)
-    average = total / len(numbers)
-    return average
+class Random():
+    def generate_random_numbers(self):
+        numbers = []
+        for _ in range(10):
+            numbers.append(random.randint(1, 100))
+        return numbers
 
-def print_results(numbers, average):
-    print("Random Numbers:")
-    for num in numbers:
-        print(num)
-    print("Average:", average)
-
-numbers = generate_random_numbers()
-average = calculate_average(numbers)
-print_results(numbers, average)
+class Average():
+    def calculate_average(numbers):
+        total = sum(numbers)
+        average = total / len(numbers)
+        return average
