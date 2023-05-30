@@ -1,20 +1,20 @@
 import random
 
-class Player:
-    def __init__(self, name):
-        self.name = name
-        self.health = 100
-        self.attack_power = random.randint(10, 20)
+# class Player:
+#     def __init__(self, name):
+#         self.name = name
+#         self.health = 100
+#         self.attack_power = random.randint(10, 20)
 
-    def attack(self, target):
-        damage = self.attack_power
-        target.health -= damage
-        print(f"{self.name} attacks {target.name} and deals {damage} damage.")
+#     def attack(self, target):
+#         damage = self.attack_power
+#         target.health -= damage
+#         print(f"{self.name} attacks {target.name} and deals {damage} damage.")
 
-    def heal(self):
-        heal_amount = random.randint(10, 20)
-        self.health += heal_amount
-        print(f"{self.name} heals themselves for {heal_amount} health.")
+#     def heal(self):
+#         heal_amount = random.randint(10, 20)
+#         self.health += heal_amount
+#         print(f"{self.name} heals themselves for {heal_amount} health.")
 
 class Game:
     def __init__(self):
@@ -42,9 +42,9 @@ class Game:
         print(f"{self.players[0].name} is the winner!")
 
 # Create players
-player1 = Player("Player 1")
-player2 = Player("Player 2")
-player3 = Player("Player 3")
+# player1 = Player("Player 1")
+# player2 = Player("Player 2")
+# player3 = Player("Player 3")
 
 # Create game instance
 game = Game()
