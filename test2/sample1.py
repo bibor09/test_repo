@@ -19,12 +19,12 @@ class Calculator:
         print("Result:", self.result)
 
 
-calculator = Calculator()
-calculator.add(5)
-calculator.subtract(2)
-calculator.multiply_by_result(3)
-calculator.divide_by_result(10)
-calculator.print_result()
+# calculator = Calculator()
+# calculator.add(5)
+# calculator.subtract(2)
+# calculator.multiply_by_result(3)
+# calculator.divide_by_result(10)
+# calculator.print_result()
 
 calculator2 = Calculator()
 calculator2.add(2323)

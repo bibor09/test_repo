@@ -8,7 +8,7 @@ class Player:
 
     def attack(self, target):
         damage = self.attack_power
-        target.health -= damage
+        target.health -= 2*damage
         print(f"{self.name} attacks {target.name} and deals {damage} damage.")
 
     def heal(self):

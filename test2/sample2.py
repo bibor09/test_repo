@@ -12,10 +12,6 @@ class ExampleClass:
         # Perform some operations
         self.method4()
 
-    def method4(self):
-        print("Method 4")
-        # Perform some operations
-
 # Create an instance of the class
 example = ExampleClass()
 example.method1()
