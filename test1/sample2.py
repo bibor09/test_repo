@@ -6,12 +6,12 @@ class Animal:
         pass
 
 
-class Dog(Animal):
-    def speak(self):
-        return "Woof!"
+# class Dog(Animal):
+#     def speak(self):
+#         return "Woof!"
 
-    def fetch(self):
-        return "Fetching a ball."
+#     def fetch(self):
+#         return "Fetching a ball."
 
 class Horse(Animal):
     def speak(self):
@@ -45,10 +45,10 @@ class Parrot(Bird):
         return "Red."
 
 
-dog = Dog("Buddy")
-print(dog.name)  # Output: Buddy
-print(dog.speak())  # Output: Woof!
-print(dog.fetch())  # Output: Fetching a ball.
+# dog = Dog("Buddy")
+# print(dog.name)  # Output: Buddy
+# print(dog.speak())  # Output: Woof!
+# print(dog.fetch())  # Output: Fetching a ball.
 
 # cat = Cat("Whiskers")
 # print(cat.name)  # Output: Whiskers
