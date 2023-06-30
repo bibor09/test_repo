@@ -32,3 +32,4 @@ calculator2.subtract(100)
 calculator2.multiply_by_result(2)
 calculator2.divide_by_result(70)
 calculator2.print_result()
+
