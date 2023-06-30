@@ -1,1 +1,1 @@
-# This is an empty sample
+# This is an empty file with one comment line

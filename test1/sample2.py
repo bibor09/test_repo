@@ -13,6 +13,10 @@ class Dog(Animal):
     def fetch(self):
         return "Fetching a ball."
 
+class Horse(Animal):
+    def speak(self):
+        return "Nyihaha"
+
 
 class Cat(Animal):
     def speak(self):

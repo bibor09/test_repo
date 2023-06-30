@@ -18,5 +18,4 @@ class ExampleClass:
 
 # Create an instance of the class
 example = ExampleClass()
-# Call the first method
 example.method1()
