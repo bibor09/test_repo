@@ -12,10 +12,6 @@ class ExampleClass:
         # Perform some operations
         self.method4()
 
-# Create an instance of the class
-example = ExampleClass()
-example.method1()
-
 class Vehicle:
     def __init__(self, brand, model, year):
         self.brand = brand
