@@ -68,6 +68,6 @@ print("Rectangle area:", rectangle.area())
 print("Triangle area:", triangle.area())
 
 # Calculate total area
-shapes = [circle, rectangle, triangle]
-total_area = calculate_total_area(shapes)
-print("Total area:", total_area)
+# shapes = [circle, rectangle, triangle]
+# total_area = calculate_total_area(shapes)
+# print("Total area:", total_area)

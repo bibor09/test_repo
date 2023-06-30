@@ -46,8 +46,8 @@ print(dog.name)  # Output: Buddy
 print(dog.speak())  # Output: Woof!
 print(dog.fetch())  # Output: Fetching a ball.
 
-# cat = Cat("Whiskers")
-# print(cat.name)  # Output: Whiskers
-# print(cat.speak())  # Output: Meow!
-# print(cat.scratch())  # Output: Scratching the furniture.
+cat = Cat("Whiskers")
+print(cat.name)  # Output: Whiskers
+print(cat.speak())  # Output: Meow!
+print(cat.scratch())  # Output: Scratching the furniture.
 
