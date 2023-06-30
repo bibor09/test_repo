@@ -39,27 +39,3 @@ class Player:
         print(f"{self.name}'s hand:")
         for card in self.hand:
             print(card)
-
-
-def main():
-    deck = Deck()
-    deck.shuffle()
-
-    players = []
-    num_players = 4
-    for i in range(num_players):
-        name = f"Player {i+1}"
-        player = Player(name)
-        players.append(player)
-
-    num_cards_to_deal = 5
-    for _ in range(num_cards_to_deal):
-        for player in players:
-            player.draw_card(deck)
-
-    for player in players:
-        player.show_hand()
-
-
-# if __name__ == "__main__":
-#     main()

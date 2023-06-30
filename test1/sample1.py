@@ -12,11 +12,11 @@ class Random():
             numbers.append(random.randint(1, 100))
         return numbers
 
-# class Average():
-#     def calculate_average(numbers):
-#         total = sum(numbers)
-#         average = total / len(numbers)
-#         return average
+class Average():
+    def calculate_average(numbers):
+        total = sum(numbers)
+        average = total / len(numbers)
+        return average
     
 class Order:
     def __init__(self, order_id, customer):

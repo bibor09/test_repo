@@ -10,14 +10,12 @@ def calculate_grade(score):
     else:
         grade = 'F'
 
-    # if grade == 'A' or grade == 'B':
-    #     message = 'Great job!'
-    # elif grade == 'C':
-    #     message = 'Not bad!'
-    # elif grade == 'D':
-    #     message = 'You can do better.'
-    # else:
-    #     message = 'You need to work harder.'
+    if grade == 'A' or grade == 'B':
+        message = 'Great job!'
+    elif grade == 'C':
+        message = 'Not bad!'
+    else:
+        message = 'You need to work harder.'
 
     return grade, message
 
