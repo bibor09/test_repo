@@ -3,7 +3,7 @@ import random
 class Calculate():
     def __init__(self):
         self.random = Random()
-        self.avg = Average()
+        # self.avg = Average()
 
 class Random():
     def generate_random_numbers(self):

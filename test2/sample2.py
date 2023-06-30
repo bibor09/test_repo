@@ -12,6 +12,7 @@ class ExampleClass:
         # Perform some operations
         self.method4()
 
+
 class Vehicle:
     def __init__(self, brand, model, year):
         self.brand = brand
