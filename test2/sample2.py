@@ -130,8 +130,4 @@ print(student1)
 student1.speak()
 student1.study()
 
-teacher1 = Teacher("Mr. Johnson", 40, "Male", "Math")
-print(teacher1)
-teacher1.speak()
-teacher1.teach()
 
